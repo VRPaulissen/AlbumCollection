@@ -1,0 +1,12 @@
+C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.Core\bin\Debug\net9.0\AlbumCollection.Core.deps.json
+C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.Core\bin\Debug\net9.0\AlbumCollection.Core.dll
+C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.Core\bin\Debug\net9.0\AlbumCollection.Core.pdb
+C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.Core\obj\Debug\net9.0\AlbumCollection.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.Core\obj\Debug\net9.0\AlbumCollection.Core.AssemblyInfoInputs.cache
+C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.Core\obj\Debug\net9.0\AlbumCollection.Core.AssemblyInfo.cs
+C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.Core\obj\Debug\net9.0\AlbumCollection.Core.csproj.CoreCompileInputs.cache
+C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.Core\obj\Debug\net9.0\AlbumCollection.Core.sourcelink.json
+C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.Core\obj\Debug\net9.0\AlbumCollection.Core.dll
+C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.Core\obj\Debug\net9.0\refint\AlbumCollection.Core.dll
+C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.Core\obj\Debug\net9.0\AlbumCollection.Core.pdb
+C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.Core\obj\Debug\net9.0\ref\AlbumCollection.Core.dll
