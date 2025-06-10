@@ -8,8 +8,15 @@ using Microsoft.EntityFrameworkCore;
 namespace AlbumCollection.API.Controllers
 {
     [ApiController, Route("api/[controller]")]
-    public class AlbumsController(IAlbumRepository repository, IDiscogsService discogs) : ControllerBase
+    public class AlbumsController(
+        IAlbumRepository repository,
+        IDiscogsService discogs,
+        IWebHostEnvironment env,
+        IHttpClientFactory httpFactory)
+        : ControllerBase
     {
+        private readonly HttpClient http = httpFactory.CreateClient();
+
         // GET: api/albums
         // Retrieves all albums as DTOs, with optional filtering and pagination
         [HttpGet]
@@ -50,20 +57,24 @@ namespace AlbumCollection.API.Controllers
         public async Task<ActionResult<AlbumDto>> CreateAlbum(CreateAlbumDto createDto)
         {
             var album = createDto.ConvertToAlbum();
+            
+            // Download the cover bytes
+            await DownloadCoverImageAsync(album);
             await repository.AddAsync(album);
             await repository.SaveChangesAsync();
             return CreatedAtAction(nameof(GetById), new { id = album.Id }, ConvertToDto(album));
         }
 
-        /// <summary>
-        /// Import an album from Discogs by UPC barcode.
-        /// </summary>
+        // POST: api/albums/import/by-upc/{upc}
+        // Bulk import of albums, returns list of DTOs
         [HttpPost("import/by-upc/{upc}")]
         public async Task<ActionResult<AlbumDto>> ImportByUpc(long upc)
         {
             var album = await discogs.FetchByUpcAsync(upc);
             if (album == null) return BadRequest($"Discogs lookup failed for UPC {upc}");
 
+            // Download the cover bytes
+            await DownloadCoverImageAsync(album);
             await repository.AddAsync(album);
             await repository.SaveChangesAsync();
             return CreatedAtAction(nameof(GetById), new { id = album.Id }, ConvertToDto(album));
@@ -103,6 +114,15 @@ namespace AlbumCollection.API.Controllers
             return NoContent();
         }
 
+        // DELETE: api/albums/delete-all
+        // Removes all albums from the database
+        [HttpDelete("delete-all")]
+        public async Task<IActionResult> DeleteAllAlbums()
+        {
+            await repository.DeleteAllAsync();
+            return NoContent();
+        }
+
         #region Utility
         // Converts an Album to an AlbumDto
         private AlbumDto ConvertToDto(Album album)
@@ -138,6 +158,30 @@ namespace AlbumCollection.API.Controllers
                 Duration = track.Duration,
                 AlbumId = track.AlbumId,
             };
+        }
+        
+        // Download the Cover Image and save it in the covers path
+        private async Task DownloadCoverImageAsync(Album album)
+        {
+            try
+            {
+                var imageBytes = await http.GetByteArrayAsync(album.CoverUrl);
+                var ext = Path.GetExtension(new Uri(album.CoverUrl).AbsolutePath);
+                var fileName = $"{Guid.NewGuid()}{ext}";
+                var savePath = Path.Combine(env.WebRootPath, "covers", fileName);
+                Directory.CreateDirectory(Path.GetDirectoryName(savePath)!);
+                
+                // Write the file
+                await System.IO.File.WriteAllBytesAsync(savePath, imageBytes);
+                
+                // Point your album at the new local URL
+                album.CoverUrl = $"/covers/{fileName}";
+            }
+            catch (Exception ex)
+            {
+                // Log & swallow: if download fails, keep the original CoverUrl
+                await Console.Error.WriteLineAsync($"Cover download failed: {ex}");
+            }
         }
         #endregion
     }

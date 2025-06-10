@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "yvjXn41S7Mmi0BOXsxn6cW2X6MkiuPlWKsPvQVRtHF8=",
+  "Hash": "5hvk3edwbAX9LWCFm9FN+PA8cBweg97TkPYt2w+WsXI=",
   "Source": "AlbumCollection.API",
   "BasePath": "_content/AlbumCollection.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "AlbumCollection.API\\wwwroot",
+      "Source": "AlbumCollection.API",
+      "ContentRoot": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\",
+      "BasePath": "_content/AlbumCollection.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\fallback-cover-image.png",
+      "SourceId": "AlbumCollection.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\",
+      "BasePath": "_content/AlbumCollection.API",
+      "RelativePath": "covers/fallback-cover-image#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m3vriccg3f",
+      "Integrity": "zmcn2jQHAc/9hiTDA5evYp7TO6U3cq5fh/ksPLG/Stk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\covers\\fallback-cover-image.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "covers/fallback-cover-image.m3vriccg3f.png",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\fallback-cover-image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zmcn2jQHAc/9hiTDA5evYp7TO6U3cq5fh/ksPLG/Stk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 13:11:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m3vriccg3f"
+        },
+        {
+          "Name": "label",
+          "Value": "covers/fallback-cover-image.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zmcn2jQHAc/9hiTDA5evYp7TO6U3cq5fh/ksPLG/Stk="
+        }
+      ]
+    },
+    {
+      "Route": "covers/fallback-cover-image.png",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\fallback-cover-image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zmcn2jQHAc/9hiTDA5evYp7TO6U3cq5fh/ksPLG/Stk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 13:11:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zmcn2jQHAc/9hiTDA5evYp7TO6U3cq5fh/ksPLG/Stk="
+        }
+      ]
+    }
+  ]
 }

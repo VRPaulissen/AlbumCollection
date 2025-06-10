@@ -14,6 +14,7 @@ namespace AlbumCollection.Core.Repositories
         void AddRange(IEnumerable<Album> albums);
         Task UpdateAsync(Album album);
         Task DeleteAsync(Guid id);
+        Task DeleteAllAsync();
         Task SaveChangesAsync();  
     }
 }

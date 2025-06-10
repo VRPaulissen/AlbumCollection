@@ -4,6 +4,7 @@ using AlbumCollection.Infrastructure.Data;
 using AlbumCollection.Infrastructure.Repositories;
 using AlbumCollection.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 
@@ -49,6 +50,15 @@ builder.Services.AddHttpClient<IDiscogsService, DiscogsService>((sp, client) =>
             "Discogs", $"token={opts.PersonalAccessToken}");
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp",
+        policy => policy
+            .WithOrigins("http://localhost:3000") 
+            .AllowAnyHeader()
+            .AllowAnyMethod());
+});
+
 // Build the application
 var app = builder.Build();
 
@@ -61,19 +71,17 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-app.UseHttpsRedirection();      
-app.UseAuthorization();     
-
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowReactApp",
-        policy => policy
-            .WithOrigins("http://localhost:3000") 
-            .AllowAnyHeader()
-            .AllowAnyMethod());
-});
 app.UseCors("AllowReactApp");
+app.UseHttpsRedirection();   
 
+app.UseStaticFiles(new StaticFileOptions
+{
+    RequestPath = "/covers",
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(builder.Environment.WebRootPath, "covers"))
+});
+
+app.UseAuthorization();     
 app.MapControllers();
 
 // Start listening for incoming HTTP requests

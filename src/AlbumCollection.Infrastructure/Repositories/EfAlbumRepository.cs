@@ -48,7 +48,17 @@ namespace AlbumCollection.Infrastructure.Repositories
                 await context.SaveChangesAsync();
             }
         }
-        
+
+        public async Task DeleteAllAsync()
+        {
+            foreach (var album in context.Albums.ToArray())
+            {
+                context.Albums.Remove(album);
+            }
+            
+            await context.SaveChangesAsync();
+        }
+
         public Task SaveChangesAsync()
         {
             return context.SaveChangesAsync();

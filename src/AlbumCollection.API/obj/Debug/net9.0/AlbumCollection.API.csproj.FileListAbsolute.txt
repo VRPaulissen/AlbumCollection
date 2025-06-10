@@ -197,3 +197,4 @@ C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.AP
 C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Hans\Documents\.NET Projects\AlbumCollection.API\src\AlbumCollection.API\bin\Debug\net9.0\AlbumCollection.API.staticwebassets.runtime.json

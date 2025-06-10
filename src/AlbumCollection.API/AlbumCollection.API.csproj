@@ -26,4 +26,8 @@
     <ProjectReference Include="..\AlbumCollection.Infrastructure\AlbumCollection.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\covers\" />
+  </ItemGroup>
+
 </Project>

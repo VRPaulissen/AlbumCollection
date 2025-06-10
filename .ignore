@@ -1,6 +1,7 @@
 # Build artifacts
 bin/
 obj/
+wwwroot/covers/*
 
 # User-specific
 *.user
@@ -18,3 +19,4 @@ obj/
 # OS files
 .DS_Store
 Thumbs.db
+
