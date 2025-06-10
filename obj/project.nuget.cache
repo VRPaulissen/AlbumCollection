@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pvv97eQHNYQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\AlbumCollection.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hans\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hans\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
