@@ -14,7 +14,7 @@
         public string Publisher { get; set; }
         public string CoverUrl { get; set; }     
         public int ReleaseYear { get; set; }  
-        public long UPC { get; set; }
+        public string UPC { get; set; }
         
         // API References
         public long DiscogsId { get; set; }

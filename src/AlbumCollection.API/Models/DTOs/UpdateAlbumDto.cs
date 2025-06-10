@@ -15,7 +15,7 @@ namespace AlbumCollection.API.Models.DTOs
         public string? Publisher { get; set; }
         public string? CoverUrl { get; set; }
         public int? ReleaseYear { get; set; }
-        public long? UPC { get; set; }
+        public string? UPC { get; set; }
         public long? DiscogsId { get; set; }
         public string? SpotifyUri { get; set; }
 
@@ -34,7 +34,7 @@ namespace AlbumCollection.API.Models.DTOs
             if (Publisher is not null) album.Publisher = Publisher;
             if (CoverUrl is not null) album.CoverUrl = CoverUrl;
             if (ReleaseYear.HasValue) album.ReleaseYear = ReleaseYear.Value;
-            if (UPC is not null) album.UPC = UPC.Value;
+            if (UPC is not null) album.UPC = UPC;
             if (DiscogsId.HasValue) album.DiscogsId = DiscogsId.Value;
             if (SpotifyUri is not null) album.SpotifyUri = SpotifyUri;
             if (Tracks is not null) album.Tracks = Tracks.Select(t => t.ConvertToTrack()).ToList();

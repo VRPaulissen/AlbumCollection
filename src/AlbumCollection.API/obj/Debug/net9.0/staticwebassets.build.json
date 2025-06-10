@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5hvk3edwbAX9LWCFm9FN+PA8cBweg97TkPYt2w+WsXI=",
+  "Hash": "Vv4ID+Tge3WGnY6HW38T3A+oJ6s5HbobZaVzOXhbo4k=",
   "Source": "AlbumCollection.API",
   "BasePath": "_content/AlbumCollection.API",
   "Mode": "Default",
@@ -16,6 +16,174 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\01ff67c2-def7-4934-bac1-c1083d3e7cbb.jpeg",
+      "SourceId": "AlbumCollection.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\",
+      "BasePath": "_content/AlbumCollection.API",
+      "RelativePath": "covers/01ff67c2-def7-4934-bac1-c1083d3e7cbb#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ii67q8nyis",
+      "Integrity": "uoa1STV8m000ROB+DlmrRR5ovFCbjnsbsljqmWHDQkc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\covers\\01ff67c2-def7-4934-bac1-c1083d3e7cbb.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\30e696f2-7f2a-4382-a0bb-4e9b0fe5f3f7.jpeg",
+      "SourceId": "AlbumCollection.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\",
+      "BasePath": "_content/AlbumCollection.API",
+      "RelativePath": "covers/30e696f2-7f2a-4382-a0bb-4e9b0fe5f3f7#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i1lgz8v3h6",
+      "Integrity": "el7387Oj6hjesMPY61U5zOchC5egMwUKfdc82zBMMYk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\covers\\30e696f2-7f2a-4382-a0bb-4e9b0fe5f3f7.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\3fa1732b-c350-4e29-a911-272c555dd4c6.jpeg",
+      "SourceId": "AlbumCollection.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\",
+      "BasePath": "_content/AlbumCollection.API",
+      "RelativePath": "covers/3fa1732b-c350-4e29-a911-272c555dd4c6#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gep9ks1imm",
+      "Integrity": "KANheUMs2SWvkYk/CGPMKkkZUO6EZ0s+QA9q+9uCV8A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\covers\\3fa1732b-c350-4e29-a911-272c555dd4c6.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\8a8d45ae-0e42-4af2-9f89-330e8f1c30f7.jpeg",
+      "SourceId": "AlbumCollection.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\",
+      "BasePath": "_content/AlbumCollection.API",
+      "RelativePath": "covers/8a8d45ae-0e42-4af2-9f89-330e8f1c30f7#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cv8vhjwxfq",
+      "Integrity": "qFsztzE0cKAH1Dl5JgudKzSP/0rYRElTv++VPq+06fQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\covers\\8a8d45ae-0e42-4af2-9f89-330e8f1c30f7.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\ab63ccaf-3709-44c7-b497-278a0e8e0ca6.jpeg",
+      "SourceId": "AlbumCollection.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\",
+      "BasePath": "_content/AlbumCollection.API",
+      "RelativePath": "covers/ab63ccaf-3709-44c7-b497-278a0e8e0ca6#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mcbsqswvdt",
+      "Integrity": "is16W7sdRpThOVPMSEpkLTexpSaZvwSbVI/KDo6n7A4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\covers\\ab63ccaf-3709-44c7-b497-278a0e8e0ca6.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\b1d95710-852c-4751-baa9-e69717ad48f7.jpeg",
+      "SourceId": "AlbumCollection.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\",
+      "BasePath": "_content/AlbumCollection.API",
+      "RelativePath": "covers/b1d95710-852c-4751-baa9-e69717ad48f7#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mcbsqswvdt",
+      "Integrity": "is16W7sdRpThOVPMSEpkLTexpSaZvwSbVI/KDo6n7A4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\covers\\b1d95710-852c-4751-baa9-e69717ad48f7.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\d4e6aa84-0530-4ef5-8187-641f46457682.jpeg",
+      "SourceId": "AlbumCollection.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\",
+      "BasePath": "_content/AlbumCollection.API",
+      "RelativePath": "covers/d4e6aa84-0530-4ef5-8187-641f46457682#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vhubvwfjj5",
+      "Integrity": "3eHgDnTomCakhVTYgKzsp73O0NQy4NBy3eQnXt2pfFw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\covers\\d4e6aa84-0530-4ef5-8187-641f46457682.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\f0a921b8-b6b6-4607-9c65-08321444ab76.jpeg",
+      "SourceId": "AlbumCollection.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\",
+      "BasePath": "_content/AlbumCollection.API",
+      "RelativePath": "covers/f0a921b8-b6b6-4607-9c65-08321444ab76#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z8rr8g0ulh",
+      "Integrity": "TXWQs+L0r5LOQz8L9vpcmHkEK7BMl/5V1HvT4nZX0Bw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\covers\\f0a921b8-b6b6-4607-9c65-08321444ab76.jpeg"
+    },
     {
       "Identity": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\fallback-cover-image.png",
       "SourceId": "AlbumCollection.API",
@@ -39,6 +207,662 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "covers/01ff67c2-def7-4934-bac1-c1083d3e7cbb.ii67q8nyis.jpeg",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\01ff67c2-def7-4934-bac1-c1083d3e7cbb.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uoa1STV8m000ROB+DlmrRR5ovFCbjnsbsljqmWHDQkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 14:18:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ii67q8nyis"
+        },
+        {
+          "Name": "label",
+          "Value": "covers/01ff67c2-def7-4934-bac1-c1083d3e7cbb.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uoa1STV8m000ROB+DlmrRR5ovFCbjnsbsljqmWHDQkc="
+        }
+      ]
+    },
+    {
+      "Route": "covers/01ff67c2-def7-4934-bac1-c1083d3e7cbb.jpeg",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\01ff67c2-def7-4934-bac1-c1083d3e7cbb.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uoa1STV8m000ROB+DlmrRR5ovFCbjnsbsljqmWHDQkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 14:18:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uoa1STV8m000ROB+DlmrRR5ovFCbjnsbsljqmWHDQkc="
+        }
+      ]
+    },
+    {
+      "Route": "covers/30e696f2-7f2a-4382-a0bb-4e9b0fe5f3f7.i1lgz8v3h6.jpeg",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\30e696f2-7f2a-4382-a0bb-4e9b0fe5f3f7.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"el7387Oj6hjesMPY61U5zOchC5egMwUKfdc82zBMMYk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 15:38:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i1lgz8v3h6"
+        },
+        {
+          "Name": "label",
+          "Value": "covers/30e696f2-7f2a-4382-a0bb-4e9b0fe5f3f7.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-el7387Oj6hjesMPY61U5zOchC5egMwUKfdc82zBMMYk="
+        }
+      ]
+    },
+    {
+      "Route": "covers/30e696f2-7f2a-4382-a0bb-4e9b0fe5f3f7.jpeg",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\30e696f2-7f2a-4382-a0bb-4e9b0fe5f3f7.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"el7387Oj6hjesMPY61U5zOchC5egMwUKfdc82zBMMYk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 15:38:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-el7387Oj6hjesMPY61U5zOchC5egMwUKfdc82zBMMYk="
+        }
+      ]
+    },
+    {
+      "Route": "covers/3fa1732b-c350-4e29-a911-272c555dd4c6.gep9ks1imm.jpeg",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\3fa1732b-c350-4e29-a911-272c555dd4c6.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KANheUMs2SWvkYk/CGPMKkkZUO6EZ0s+QA9q+9uCV8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 15:38:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gep9ks1imm"
+        },
+        {
+          "Name": "label",
+          "Value": "covers/3fa1732b-c350-4e29-a911-272c555dd4c6.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KANheUMs2SWvkYk/CGPMKkkZUO6EZ0s+QA9q+9uCV8A="
+        }
+      ]
+    },
+    {
+      "Route": "covers/3fa1732b-c350-4e29-a911-272c555dd4c6.jpeg",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\3fa1732b-c350-4e29-a911-272c555dd4c6.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KANheUMs2SWvkYk/CGPMKkkZUO6EZ0s+QA9q+9uCV8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 15:38:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KANheUMs2SWvkYk/CGPMKkkZUO6EZ0s+QA9q+9uCV8A="
+        }
+      ]
+    },
+    {
+      "Route": "covers/8a8d45ae-0e42-4af2-9f89-330e8f1c30f7.cv8vhjwxfq.jpeg",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\8a8d45ae-0e42-4af2-9f89-330e8f1c30f7.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78070"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qFsztzE0cKAH1Dl5JgudKzSP/0rYRElTv++VPq+06fQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 15:39:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cv8vhjwxfq"
+        },
+        {
+          "Name": "label",
+          "Value": "covers/8a8d45ae-0e42-4af2-9f89-330e8f1c30f7.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qFsztzE0cKAH1Dl5JgudKzSP/0rYRElTv++VPq+06fQ="
+        }
+      ]
+    },
+    {
+      "Route": "covers/8a8d45ae-0e42-4af2-9f89-330e8f1c30f7.jpeg",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\8a8d45ae-0e42-4af2-9f89-330e8f1c30f7.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78070"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qFsztzE0cKAH1Dl5JgudKzSP/0rYRElTv++VPq+06fQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 15:39:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qFsztzE0cKAH1Dl5JgudKzSP/0rYRElTv++VPq+06fQ="
+        }
+      ]
+    },
+    {
+      "Route": "covers/ab63ccaf-3709-44c7-b497-278a0e8e0ca6.jpeg",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\ab63ccaf-3709-44c7-b497-278a0e8e0ca6.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"is16W7sdRpThOVPMSEpkLTexpSaZvwSbVI/KDo6n7A4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 15:02:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-is16W7sdRpThOVPMSEpkLTexpSaZvwSbVI/KDo6n7A4="
+        }
+      ]
+    },
+    {
+      "Route": "covers/ab63ccaf-3709-44c7-b497-278a0e8e0ca6.mcbsqswvdt.jpeg",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\ab63ccaf-3709-44c7-b497-278a0e8e0ca6.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"is16W7sdRpThOVPMSEpkLTexpSaZvwSbVI/KDo6n7A4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 15:02:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mcbsqswvdt"
+        },
+        {
+          "Name": "label",
+          "Value": "covers/ab63ccaf-3709-44c7-b497-278a0e8e0ca6.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-is16W7sdRpThOVPMSEpkLTexpSaZvwSbVI/KDo6n7A4="
+        }
+      ]
+    },
+    {
+      "Route": "covers/b1d95710-852c-4751-baa9-e69717ad48f7.jpeg",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\b1d95710-852c-4751-baa9-e69717ad48f7.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"is16W7sdRpThOVPMSEpkLTexpSaZvwSbVI/KDo6n7A4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 15:40:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-is16W7sdRpThOVPMSEpkLTexpSaZvwSbVI/KDo6n7A4="
+        }
+      ]
+    },
+    {
+      "Route": "covers/b1d95710-852c-4751-baa9-e69717ad48f7.mcbsqswvdt.jpeg",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\b1d95710-852c-4751-baa9-e69717ad48f7.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"is16W7sdRpThOVPMSEpkLTexpSaZvwSbVI/KDo6n7A4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 15:40:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mcbsqswvdt"
+        },
+        {
+          "Name": "label",
+          "Value": "covers/b1d95710-852c-4751-baa9-e69717ad48f7.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-is16W7sdRpThOVPMSEpkLTexpSaZvwSbVI/KDo6n7A4="
+        }
+      ]
+    },
+    {
+      "Route": "covers/d4e6aa84-0530-4ef5-8187-641f46457682.jpeg",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\d4e6aa84-0530-4ef5-8187-641f46457682.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3eHgDnTomCakhVTYgKzsp73O0NQy4NBy3eQnXt2pfFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 15:49:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3eHgDnTomCakhVTYgKzsp73O0NQy4NBy3eQnXt2pfFw="
+        }
+      ]
+    },
+    {
+      "Route": "covers/d4e6aa84-0530-4ef5-8187-641f46457682.vhubvwfjj5.jpeg",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\d4e6aa84-0530-4ef5-8187-641f46457682.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3eHgDnTomCakhVTYgKzsp73O0NQy4NBy3eQnXt2pfFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 15:49:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vhubvwfjj5"
+        },
+        {
+          "Name": "label",
+          "Value": "covers/d4e6aa84-0530-4ef5-8187-641f46457682.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3eHgDnTomCakhVTYgKzsp73O0NQy4NBy3eQnXt2pfFw="
+        }
+      ]
+    },
+    {
+      "Route": "covers/f0a921b8-b6b6-4607-9c65-08321444ab76.jpeg",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\f0a921b8-b6b6-4607-9c65-08321444ab76.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TXWQs+L0r5LOQz8L9vpcmHkEK7BMl/5V1HvT4nZX0Bw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 15:39:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TXWQs+L0r5LOQz8L9vpcmHkEK7BMl/5V1HvT4nZX0Bw="
+        }
+      ]
+    },
+    {
+      "Route": "covers/f0a921b8-b6b6-4607-9c65-08321444ab76.z8rr8g0ulh.jpeg",
+      "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\f0a921b8-b6b6-4607-9c65-08321444ab76.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TXWQs+L0r5LOQz8L9vpcmHkEK7BMl/5V1HvT4nZX0Bw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 15:39:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z8rr8g0ulh"
+        },
+        {
+          "Name": "label",
+          "Value": "covers/f0a921b8-b6b6-4607-9c65-08321444ab76.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TXWQs+L0r5LOQz8L9vpcmHkEK7BMl/5V1HvT4nZX0Bw="
+        }
+      ]
+    },
     {
       "Route": "covers/fallback-cover-image.m3vriccg3f.png",
       "AssetFile": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\fallback-cover-image.png",

@@ -7,7 +7,7 @@ namespace AlbumCollection.Infrastructure.Services;
 
 public class DiscogsService(HttpClient http, IOptions<DiscogsOptions> opts) : IDiscogsService
 {
-    public async Task<Album?> FetchByUpcAsync(long upc)
+    public async Task<Album?> FetchByUpcAsync(string upc)
     {
         // Search by barcode
         var search = await http.GetFromJsonAsync<DiscogsSearchResult>($"database/search?barcode={upc}");

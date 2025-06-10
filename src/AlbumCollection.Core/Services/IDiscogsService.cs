@@ -7,6 +7,6 @@ namespace AlbumCollection.Core.Services
         /// <summary>
         /// Fetches a release from Discogs by UPC code, or null if not found.
         /// </summary>
-        Task<Album?> FetchByUpcAsync(long upc);
+        Task<Album?> FetchByUpcAsync(string upc);
     }
 }

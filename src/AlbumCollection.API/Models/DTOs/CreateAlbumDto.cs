@@ -16,7 +16,7 @@ namespace AlbumCollection.API.Models.DTOs
         [Required] public string Publisher { get; set; } = string.Empty;
         [Required] public string CoverUrl { get; set; } = string.Empty;
         [Required] public int ReleaseYear { get; set; }
-        [Required] public long UPC { get; set; }
+        [Required] public string UPC { get; set; }
         public long DiscogsId { get; set; }
         public string SpotifyUri { get; set; } = string.Empty;
 

@@ -68,7 +68,7 @@ namespace AlbumCollection.API.Controllers
         // POST: api/albums/import/by-upc/{upc}
         // Bulk import of albums, returns list of DTOs
         [HttpPost("import/by-upc/{upc}")]
-        public async Task<ActionResult<AlbumDto>> ImportByUpc(long upc)
+        public async Task<ActionResult<AlbumDto>> ImportByUpc(string upc)
         {
             var album = await discogs.FetchByUpcAsync(upc);
             if (album == null) return BadRequest($"Discogs lookup failed for UPC {upc}");
@@ -80,6 +80,26 @@ namespace AlbumCollection.API.Controllers
             return CreatedAtAction(nameof(GetById), new { id = album.Id }, ConvertToDto(album));
         }
         
+        // POST: api/albums/import/bulk-by-upc/
+        // Bulk import of albums based on upc, returns list of DTOs
+        [HttpPost("import/bulk-by-upc")]
+        public async Task<ActionResult<IEnumerable<AlbumDto>>> ImportBulkByUpc([FromBody] IEnumerable<string> upcs)
+        {
+            var addedAlbums = new List<Album>();
+            foreach (var upc in upcs)
+            {
+                var album = await discogs.FetchByUpcAsync(upc);
+                if (album == null) return BadRequest($"Discogs lookup failed for UPC {upc}");
+
+                await DownloadCoverImageAsync(album);
+                addedAlbums.Add(album);
+            }
+
+            repository.AddRange(addedAlbums);
+            await repository.SaveChangesAsync();
+            return Created("api/albums", addedAlbums.Select(ConvertToDto));
+        }
+        
         // POST: api/albums/bulk-import
         // Bulk import of albums, returns list of DTOs
         [HttpPost("bulk-import")]
@@ -89,7 +109,6 @@ namespace AlbumCollection.API.Controllers
             repository.AddRange(albums);
             await repository.SaveChangesAsync();
             return Created("api/albums", albums.Select(ConvertToDto));
-            
         }
         
         // PUT: api/albums/{id}

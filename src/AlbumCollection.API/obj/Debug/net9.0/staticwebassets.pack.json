@@ -1,6 +1,38 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\01ff67c2-def7-4934-bac1-c1083d3e7cbb.jpeg",
+      "PackagePath": "staticwebassets\\covers\\01ff67c2-def7-4934-bac1-c1083d3e7cbb.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\30e696f2-7f2a-4382-a0bb-4e9b0fe5f3f7.jpeg",
+      "PackagePath": "staticwebassets\\covers\\30e696f2-7f2a-4382-a0bb-4e9b0fe5f3f7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\3fa1732b-c350-4e29-a911-272c555dd4c6.jpeg",
+      "PackagePath": "staticwebassets\\covers\\3fa1732b-c350-4e29-a911-272c555dd4c6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\8a8d45ae-0e42-4af2-9f89-330e8f1c30f7.jpeg",
+      "PackagePath": "staticwebassets\\covers\\8a8d45ae-0e42-4af2-9f89-330e8f1c30f7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\ab63ccaf-3709-44c7-b497-278a0e8e0ca6.jpeg",
+      "PackagePath": "staticwebassets\\covers\\ab63ccaf-3709-44c7-b497-278a0e8e0ca6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\b1d95710-852c-4751-baa9-e69717ad48f7.jpeg",
+      "PackagePath": "staticwebassets\\covers\\b1d95710-852c-4751-baa9-e69717ad48f7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\d4e6aa84-0530-4ef5-8187-641f46457682.jpeg",
+      "PackagePath": "staticwebassets\\covers\\d4e6aa84-0530-4ef5-8187-641f46457682.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\f0a921b8-b6b6-4607-9c65-08321444ab76.jpeg",
+      "PackagePath": "staticwebassets\\covers\\f0a921b8-b6b6-4607-9c65-08321444ab76.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Hans\\Documents\\.NET Projects\\AlbumCollection.API\\src\\AlbumCollection.API\\wwwroot\\covers\\fallback-cover-image.png",
       "PackagePath": "staticwebassets\\covers\\fallback-cover-image.png"
     },

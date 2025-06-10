@@ -62,6 +62,8 @@ builder.Services.AddCors(options =>
 // Build the application
 var app = builder.Build();
 
+Console.WriteLine($"WebRoot is: {app.Environment.WebRootPath}");
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();                           

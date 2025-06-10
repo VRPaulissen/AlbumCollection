@@ -16,7 +16,7 @@ namespace AlbumCollection.Infrastructure.Repositories
         {
             return await context.Albums.Include(a => a.Tracks).ToListAsync();
         }
-        
+
         public async Task<Album?> GetByIdAsync(Guid id)
         {
             return await context.Albums.Include(a => a.Tracks).FirstOrDefaultAsync(a => a.Id == id);
@@ -27,7 +27,7 @@ namespace AlbumCollection.Infrastructure.Repositories
             context.Albums.Add(album);
             await context.SaveChangesAsync();
         }
-        
+
         public void AddRange(IEnumerable<Album> albums)
         {
             context.Albums.AddRange(albums);
@@ -44,6 +44,11 @@ namespace AlbumCollection.Infrastructure.Repositories
             var album = await context.Albums.FindAsync(id);
             if (album != null)
             {
+                foreach (var track in album.Tracks.ToArray()!)
+                {
+                    context.Tracks.Remove(track);
+                }
+
                 context.Albums.Remove(album);
                 await context.SaveChangesAsync();
             }
@@ -55,7 +60,12 @@ namespace AlbumCollection.Infrastructure.Repositories
             {
                 context.Albums.Remove(album);
             }
-            
+
+            foreach (var track in context.Tracks.ToArray())
+            {
+                context.Tracks.Remove(track);
+            }
+
             await context.SaveChangesAsync();
         }
 
