@@ -62,7 +62,18 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();      
-app.UseAuthorization();        
+app.UseAuthorization();     
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp",
+        policy => policy
+            .WithOrigins("http://localhost:3000") 
+            .AllowAnyHeader()
+            .AllowAnyMethod());
+});
+app.UseCors("AllowReactApp");
+
 app.MapControllers();
 
 // Start listening for incoming HTTP requests
